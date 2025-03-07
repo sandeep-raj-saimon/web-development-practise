@@ -1,0 +1,9 @@
+{
+    "name": "My React Chrome Extension",
+    "description": "A minimal Chrome extension using React and Vite",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "action": {
+      "default_popup": "index.html"
+    }
+  }
