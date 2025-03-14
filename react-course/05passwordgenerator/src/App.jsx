@@ -1,6 +1,4 @@
 import { useState, useCallback, useEffect, useRef } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
@@ -10,6 +8,8 @@ function App() {
   const [password, setPassword] = useState('')
   const passwordRef = useRef(null)
   const generatePassword = useCallback(() => {
+    // let pass = ''
+    // let str =
     setPassword('Raj')
   }, [length, useNumber, charAllowed])
   useEffect(() => {
